@@ -1,0 +1,9 @@
+Hello, buddy.
+
+I wanna design a card game on vocabulary for kids, so I need cartoon style pictures and example sentences of each word.
+
+Plese generate colorful cartoon-style images representing the concept of a given word.
+The images should be square-shaped and include various scenarios related to the word.
+the word itself should not be included in the image or the prompt to generate the image.
+
+This is the setting. I will then give you the words one by one.
