@@ -7,6 +7,9 @@ xelatex cards/j/job/job.tex
 xelatex cards/m/medicine/medicine.tex
 xelatex cards/s/sick/sick.tex
 xelatex cards/s/sleep/sleep.tex
+xelatex cards/a/area/area.tex
+
+xelatex cards/l/lake/lake.tex
 
 rm *.aux
 rm *.log

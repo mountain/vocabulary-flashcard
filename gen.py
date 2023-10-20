@@ -21,7 +21,7 @@ paper_template = """\documentclass[avery5371, grid,frame]{flashcards}
 \\usepackage{graphicx}
 \\usepackage{geometry}
 
-\geometry{a4paper, landscape, margin=0.2in}
+\geometry{a4paper, landscape}
 \cardfrontstyle[\large\slshape]{headings}
 \cardbackstyle{empty}
 
@@ -33,9 +33,9 @@ paper_template = """\documentclass[avery5371, grid,frame]{flashcards}
 \\renewcommand{\cardcolumns}{2}
 \setlength{\cardheight}{3.5in}
 \setlength{\cardwidth}{5.0in}
-\setlength{\\topoffset}{0.50in}
-\setlength{\oddoffset}{0.50in}
-\setlength{\evenoffset}{0.50in}
+\setlength{\\topoffset}{0.65in}
+\setlength{\oddoffset}{0.65in}
+\setlength{\evenoffset}{0.65in}
 
 %s
 
