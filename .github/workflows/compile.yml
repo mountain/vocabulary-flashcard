@@ -1,0 +1,26 @@
+name: Compile
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+
+jobs:
+  make-pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xu-cheng/texlive-action@v2
+        with:
+          scheme: full
+          texlive_version: 2023
+          run: |
+            tlmgr install flashcards
+            bash build.sh
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Flashcards
+          path: ./pdfs/*.pdf
